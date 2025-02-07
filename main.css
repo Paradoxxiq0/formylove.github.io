@@ -1,11 +1,12 @@
 a{
     font-family: Montserrat;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-optical-sizing: auto;
     font-style: normal;
     font-optical-sizing: auto;
 }
+
 
 .menu{
     color: transparent;
@@ -15,21 +16,29 @@ a{
     text-shadow: 0 0 20px #00000050;
     margin: auto;
     text-align: center;
+    transition: 0.5s ease-in-out;
 
-
-    
 }
+.menu:hover{
+    color: #292929;
+}
+
 
 .menu1{
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(90deg, #5A3C7E, #FB6182);
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 900;
     text-shadow: 0 0 20px #ff24fb50;
     margin: auto;
     text-align: center;
-    padding-right: 5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.menu1:hover{
+    color: #e91e635c;
+    font-size: 25px;
 }
 
 .container{
